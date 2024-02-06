@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML FORMS</title>
+	<style>
+		p {
+			text-decoration: underline red 5px;
+			text-decoration-style: solid;
+		}
+	</style>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit.</p>
+	<form action="links.html" method="POST">
+		<label for="firstname">Firstname:</label>
+		<input type="text" placeholder="Firstname"> <br> <br>
+		<label for="lastname">Lastname:</label>
+		<input type="text" placeholder="Lastname"> <br> <br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" required> <br>
+		<label for="password">Password:</label>
+		<input type="password" name="password"> <br>
+		<label for="DOB">D.O.B:</label>
+		<input type="date" name="date"> <br>
+		<input type="radio" name="gender" id="">
+		<label for="male">Male</label> <br>
+		<input type="radio" name="gender" id="">
+		<label for="female">Female</label> <br>
+		<input type="radio" name="gender" id="">
+		<label for="Custom">Custom</label> <br>
+		<!-- To duplicate a line u use shift + alt + downarrow-->
+		<input type="checkbox" name="" id="">
+		<label for="agree">Agree</label> <br>
+		<input type="checkbox" name="" id="">
+		<label for="disagree">Disagree</label> <br>
+		<input type="number" name="" id=""> <br>
+		
+		<label for="address">Address:</label> <br>
+		<textarea name="" id="" cols="30" rows="5"></textarea> <br>
+
+		<label for="choose">States</label>
+		<select name="states" id="">
+			<option value="choose">--- Choose state ---</option>
+			<option value="imo">Imo</option>	
+			<option value="ogun">Ogun</option>	
+			<option value="Delta">Delta</option>	
+		</select> <br>
+		<input type="reset" value="RESET">
+		<input type="submit" value="SUBMIT">
+	</form>
+</body>
+</html>
